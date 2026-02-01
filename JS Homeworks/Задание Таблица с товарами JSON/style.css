@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    top: 0;
+}
+table {
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th {
+    background-color: yellow;
+    padding: 15px 15px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+td {
+    padding: 15px 15px;
+    border: 1px solid black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+select:hover {
+    border: 2px solid orange;
+    box-shadow: 0 0 0 2px #ffcc80;
+}
+
+option:hover {
+    background-color: #ffcc80;
+    color: white;
+}
+option:checked {
+    background-color: #ff9800; 
+    color: white; 
+}
