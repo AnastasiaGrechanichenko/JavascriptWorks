@@ -1,0 +1,36 @@
+main {
+    padding: 10px;
+    width: max-content;
+    background-color: rgb(20,20,20);   
+    border-radius: 15px;
+}
+
+.line {
+    margin: 5px 0px;
+    display: flex;
+    gap: 5px;
+}
+
+.textField {
+    height: 50px;
+    font-size: 1.3rem;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #7d7d7d;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    filter:brightness(120%)
+}
